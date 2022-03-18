@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>G. Oliveira</title>
+    <link>https://goliveira.com/</link>
+    <description>Recent content on G. Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 11 Mar 2021 11:07:24 -0300</lastBuildDate>
+    
+        <atom:link href="https://goliveira.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Configurando o Multipass no VS Code</title>
+        <link>https://goliveira.com/posts/configurando-o-multipass-no-vscode/</link>
+        <pubDate>Thu, 11 Mar 2021 11:07:24 -0300</pubDate>
+        
+        <guid>https://goliveira.com/posts/configurando-o-multipass-no-vscode/</guid>
+        <description>G. Oliveira https://goliveira.com/posts/configurando-o-multipass-no-vscode/ -&lt;h2 id=&#34;passos&#34;&gt;Passos&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Instalar o multipass na máquina&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Instalar o vs code&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Instalar no vs code o componente &lt;code&gt;Remote Development&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Copiar a chave privada do multipass (&lt;code&gt;C:\Windows\System32\config\systemprofile\AppData\Roaming\multipassd\ssh-keys\id_rsa&lt;/code&gt;) para o diretório &lt;code&gt;C:\Users\glaucio\.ssh&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Criar configuração no vscode apontando para o multipass (&lt;code&gt;ubuntu@172.29.209.234&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;! Garantir que a porta 22 do sshd esteja liberada (no ufw)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+- https://goliveira.com/posts/configurando-o-multipass-no-vscode/ - </description>
+        </item>
+    
+    
+  </channel>
+</rss> 

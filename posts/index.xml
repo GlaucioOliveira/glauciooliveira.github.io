@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on G. Oliveira</title>
+    <link>https://goliveira.com/posts/</link>
+    <description>Recent content in Posts on G. Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 11 Mar 2021 11:07:24 -0300</lastBuildDate><atom:link href="https://goliveira.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configurando o Multipass no VS Code</title>
+      <link>https://goliveira.com/posts/configurando-o-multipass-no-vscode/</link>
+      <pubDate>Thu, 11 Mar 2021 11:07:24 -0300</pubDate>
+      
+      <guid>https://goliveira.com/posts/configurando-o-multipass-no-vscode/</guid>
+      <description>Passos   Instalar o multipass na máquina
+  Instalar o vs code
+  Instalar no vs code o componente Remote Development
+  Copiar a chave privada do multipass (C:\Windows\System32\config\systemprofile\AppData\Roaming\multipassd\ssh-keys\id_rsa) para o diretório C:\Users\glaucio\.ssh
+  Criar configuração no vscode apontando para o multipass (ubuntu@172.29.209.234)
+  ! Garantir que a porta 22 do sshd esteja liberada (no ufw)
+  </description>
+    </item>
+    
+  </channel>
+</rss>
